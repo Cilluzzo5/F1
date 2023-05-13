@@ -1,0 +1,37 @@
+raw:
+  circuits:
+    path: data/raw/circuits.csv
+  constructor_results:
+    path: data/raw/constructor_results.csv
+  constructor_standings:
+    path: data/raw/constructor_standings.csv
+  constructors:
+    path: data/raw/constructors.csv
+  drivers:
+    path: data/raw/drivers.csv
+  driver_standings:
+    path: data/raw/driver_standings.csv
+  lap_times:
+    path: data/raw/lap_times.csv
+  pit_stops:
+    path: data/raw/pit_stops.csv
+  qualifying:
+    path: data/raw/qualifying.csv
+  races:
+    path: data/raw/races.csv
+  results:
+    path: data/raw/results.csv
+  seasons:
+    path: data/raw/seasons.csv
+  sprint_results:
+    path: data/raw/sprint_results.csv
+  status:
+    path: data/raw/status.csv
+
+processed:
+  races_grouped:
+    path: data/raw/races_grouped_13_05_2023.xlsx
+
+final:
+  path: data/final/final.csv
+
