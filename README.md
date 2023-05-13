@@ -21,7 +21,13 @@ Train the Time-GAN model on the preprocessed data
 Generate lap time series (t1, t2, t3) predicted for the next lap using the trained model
 Running the Code
 
-To run the code, you will need to have Python installed (version 3.7 or higher is recommended) as well as the libraries listed in the requirements.txt file. The code can be executed using the command python main.py.
+To run the code, you will need to have Python installed (version 3.7 or higher is recommended) as well as the libraries listed in the environment.yaml file. 
+The project structure is mainly based on the following steps:
+
+- makefile: The makefile is used to automate the process of running the project. It will be modified during the development of the analysis and the model.
+- merge_dataset: This step involves merging multiple datasets from the Ergast API into a single dataset that can be used for analysis.
+- preprocessing: The data is preprocessed in this step, which involves cleaning, transforming, and preparing the data for use in the model.
+*Note that the repository will be updated as the analysis and model development progresses.*
 
 ## Citations and References
 
