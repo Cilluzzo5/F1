@@ -1,4 +1,4 @@
-# Project Time-GAN for Lap Time Prediction in Formula 1
+# Project: Deep Learning models for Lap Time Prediction in Formula 1
 
 ## Project Objective
 
