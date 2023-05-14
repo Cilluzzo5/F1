@@ -30,7 +30,13 @@ raw:
 
 processed:
   races_grouped:
-    path: data/raw/races_grouped_13_05_2023.xlsx
+    path: data/processed/races_grouped_13_05_2023.xlsx
+  with_lap:
+    path: data/processed/with_lap.csv
+  without_lap:
+    path: data/processed/without_lap.csv
+  df_model:
+    path: data/processed/dataframe.csv
 
 final:
   path: data/final/final.csv
